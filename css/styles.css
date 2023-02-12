@@ -1,12 +1,229 @@
 .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    color: #2E2F42;
+}
+
+/* списки */
+.list {
+    list-style: none;
+}
+
+/* посилання */
+.link {
+    text-decoration: none;
+}
+
+/* logo */
+.one {
+    color: #4D5AE5;
+}
+
+.two {
+    color: #2E2F42;
+}
+
+.logo:focus {
+    color: #000;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+/* navigation */
+.site-nav .link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: #4D5AE5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+
+/* contact */
+.contact .mail-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* hero */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero .title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero .btn {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background: #404BBF;
+}
+
+/* section-1 */
+.list-item .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+}
+
+.list-item .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* section-2 */
+.section-2 .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* section-3 */
+.section-3 {
+    background-color: #F4F4FD;
+    /* width: 400px; */
+}
+
+.card-img-item .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+}
+
+.card-img-item .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* footer */
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo .one {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-logo .two {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo:focus {
+    color: #000;
+}
+
+.footer .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+
+/* Portfolio */
+/* Page 2 */
+
+.list-item .btn {
+    background: #F4F4FD;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.list-item .btn:hover,
+.list-item .btn:focus {
+    background-color: #404BBF;
+    border: 1px solid #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }

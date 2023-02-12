@@ -4,99 +4,153 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
+   <header>
       <nav>
-        <a href="/"><span>WEB</span><span>STUDIO</span></a>
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="/">Contacts</a></li>
+        <a href="/" class="logo link"
+          ><span class="one">WEB</span><span class="two">STUDIO</span></a
+        >
+        <ul class="site-nav list">
+          <li><a href="/" class="item link">Studio</a></li>
+          <li><a href="./portfolio.html" class="item link">Portfolio</a></li>
+          <li><a href="/" class="item link">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="contact list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="mail-phone link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="mail-phone link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <section>
         <h1 class="visually-hidden">Section</h1>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
+        <ul class="list">
+          <li class="list-item"><button type="button" id="" class="btn">All</button></li>
+          <li class="list-item"><button type="button" id="" class="btn">Web Site</button></li>
+          <li class="list-item"><button type="button" id="" class="btn">App</button></li>
+          <li class="list-item"><button type="button" id="" class="btn">Design</button></li>
+          <li class="list-item"><button type="button" id="" class="btn">Marketing</button></li>
+        </ul> 
       </section>
       <section>
         <h2 class="visually-hidden">Section</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/img8.jpg" alt="Banking" width="360" height="300" />
+            <img
+              src="./images/img8.jpg"
+              alt="Banking"
+              width="360"
+              height="300"
+            />
             <h2>Banking App Interface Concept</h2>
             <p>App</p>
           </li>
           <li>
-            <img src="./images/img9.jpg" alt="Payment" width="360" height="300" />
+            <img
+              src="./images/img9.jpg"
+              alt="Payment"
+              width="360"
+              height="300"
+            />
             <h2>Cashless Payment</h2>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/img10.jpg" alt="Meditaio" width="360" height="300" />
+            <img
+              src="./images/img10.jpg"
+              alt="Meditaio"
+              width="360"
+              height="300"
+            />
             <h2>Meditaion App</h2>
             <p>App</p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/img11.jpg" alt="Taxi" width="360" height="300" />
             <h2>Taxi Service</h2>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/img12.jpg" alt="Screen" width="360" height="300" />
+            <img
+              src="./images/img12.jpg"
+              alt="Screen"
+              width="360"
+              height="300"
+            />
             <h2>Screen Illustrations</h2>
             <p>Design</p>
           </li>
           <li>
-            <img src="./images/img13.jpeg" alt="Girl" width="360" height="300" />
+            <img
+              src="./images/img13.jpg"
+              alt="Girl"
+              width="360"
+              height="300"
+            />
             <h2>Online Courses</h2>
             <p>Marketing</p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/img14.jpg" alt="Instagram" width="360" height="300" />
+            <img
+              src="./images/img14.jpg"
+              alt="Instagram"
+              width="360"
+              height="300"
+            />
             <h2>Instagram Stories Concept</h2>
             <p>Design</p>
           </li>
           <li>
-            <img src="./images/img15.jpg" alt="Organic" width="360" height="300" />
+            <img
+              src="./images/img15.jpg"
+              alt="Organic"
+              width="360"
+              height="300"
+            />
             <h2>Organic Food</h2>
             <p>Web Site</p>
           </li>
           <li>
-            <img src="./images/img16.jpg" alt="Fresh" width="360" height="300" />
+            <img
+              src="./images/img16.jpg"
+              alt="Fresh"
+              width="360"
+              height="300"
+            />
             <h2>Fresh Coffee</h2>
             <p>Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <div>
-        <a href="/"><span>WEB</span><span>STUDIO</span></a>
-        <p>
-          Increase the flow of customers and sales for your business with digital marketing & growth
-          solutions.
+   <footer class="footer">
+        <a href="./index.html" class="footer-logo link"><span class="one">WEB</span><span class="two">STUDIO</span></a>
+        <p class="text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
         </p>
-      </div>
     </footer>
   </body>
 </html>
